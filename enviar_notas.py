@@ -11,7 +11,7 @@ GMAIL["ADDRESS"] = os.environ.get('GMAIL_USER')
 GMAIL["PASSWORD"] = os.environ.get('GMAIL_PASS')
 GMAIL["SERVER"] = 'smtp.gmail.com'
 GMAIL["PORT"] = 587
-# Datos mail UTDT
+# Datos OFFICE
 OFFICE = dict()
 OFFICE["ADDRESS"] = os.environ.get('OFFICE_USER')
 OFFICE["PASSWORD"] = os.environ.get('OFFICE_PASS')
@@ -75,7 +75,8 @@ if __name__ == '__main__':
         f"\n"
         f"Ejercicio 1\n"
         f"\t○ Nota: {alum['Nota ej1 (30 puntos)']} / 30\n"
-        f"\t○ Observaciones: {alum['Observaciones ej1']}\n"
+        f"\t○ Observaciones: {alum['Observaciones ej1']}\n"    
+        f"\n"
         f"Ejercicio 2\n"
         f"\t○ Nota: {alum['Nota ej2 (40 puntos)']} / 40\n"
         f"\t○ Observaciones: {alum['Observaciones ej2']}\n"
